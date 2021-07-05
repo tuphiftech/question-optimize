@@ -42,7 +42,7 @@ THIRD_PARTY_APPS = [
     'drf_yasg',
 ]
 
-LOCAL_APPS = ["apps.users"]
+LOCAL_APPS = ["apps.users", "apps.questions"]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
